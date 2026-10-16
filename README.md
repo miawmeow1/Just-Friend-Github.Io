@@ -2,7 +2,7 @@
 
 Situs portofolio pribadi satu halaman dengan tema hitam putih, animasi scroll, dan efek bayangan kursor. Dibuat dengan HTML, CSS, dan JavaScript murni tanpa framework.
 
-![Tampilan portofolio](portofolio.jpg)
+![Tampilan portofolio](portofolio.jpeg)
 
 ## Fitur
 
