@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Ahmad Zaidan | Portofolio</title>
+    <meta name="description" content="Portofolio An Ahmad Zaidan, Mahasiswa D3-PJJ Teknik Informatika." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="progress" id="progress"></div>
+    <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+    <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a href="#home" class="logo">Ahmad Zaidan</a>
+        <nav aria-label="Navigasi utama">
+            <ul class="navmenu" id="navmenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema hitam atau putih">
+            <i class="ph-bold ph-circle-half"></i>
+        </button>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <p class="hello" data-reveal>Halo, saya <i class="ph-bold ph-hand-waving"></i></p>
+                <h1 class="hero-title" id="heroTitle" aria-label="Ahmad Zaidan"></h1>
+                <h3 class="role" data-reveal style="--d:.9s">Mahasiswa D3-PJJ Teknik Informatika<hh3>
+                <p class="lead" data-reveal style="--d:1s">
+                    Saya adalah seorang Mahasiswa dengan NIM 3124510020, PJJ-Teknik Informatika Dengan Latar Pendidikan D3 Informatika.
+                    Saya memiliki keahlian dalam perancangan Web Design contoh seperti HTML, CSS, dan JavaScript,Bootstrap, dan lain-lain.
+                    Saat ini saya mencari kesempatan pertama di bidang IT, Informatics Engineering, Software Development, and Web Development.
+                </p>
+                <div class="home-btn" data-reveal style="--d:1.1s">
+                    <a href="https://api.whatsapp.com/send/?phone=6289505100709&text&type=phone_number&app_absent=0" class="btn btn-solid">Hubungi saya</a>
+                    <a href="#" class="btn btn-line" id="cvBtn">Unduh CV <i class="ph ph-read-cv-logo"></i></a>
+                </div>
+            </div>
+            <div class="home-img" data-reveal style="--d:.6s">
+                <div class="photo-frame">
+                    <span class="photo-fallback" aria-hidden="true">A</span>
+                    <img src="portofolio.jpeg" alt="Foto Zidan" onerror="this.remove()" />
+                </div>
+            </div>
+            <a href="#about" class="scroll-btn">Scroll <i class="ph-bold ph-arrow-down-right"></i></a>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <h2 class="section-title" data-split>Tentang saya</h2>
+            <div class="about-grid">
+                <p class="about-copy" data-reveal>
+                    Saya mahasiswa D3-PJJ Teknik Informatika. Di kelas saya mengerjakan
+                    perancangan HTML, CSS, dan JavaScript, Bootstrap. Di luar kelas
+                    saya membuat proyek kecil dengan HTML dan CSS contoh Animasi Lampu menyala dan Animasi flower.
+                    lalu mulai mencoba linux.
+                </p>
+                <dl class="biodata" data-reveal style="--d:.15s">
+                    <div><dt>Nama</dt><dd id="bioName"></dd></div>
+                    <div><dt>Jenis Kelamin</dt><dd id="bioGender"></dd></div>
+                    <div><dt>Umur</dt><dd id="bioUmur"></dd></div>
+                    <div><dt>Kampus</dt><dd id="bioCampus"></dd></div>
+                    <div><dt>Jurusan</dt><dd id="bioMajor"></dd></div>
+                    <div><dt>Angkatan</dt><dd id="bioYear"></dd></div>
+                    <div><dt>Email</dt><dd id="bioEmail"></dd></div>
+                    <div><dt>Telepon</dt><dd id="bioPhone"></dd></div>
+                    <div><dt>Minat</dt><dd id="bioInterest"></dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <h2 class="section-title" data-split>Keahlian</h2>
+            <ul class="skill-list" id="skillList"></ul>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <h2 class="section-title" data-split>Proyek</h2>
+            <div class="project-list" id="projectList"></div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact" id="contact">
+            <h2 class="section-title big" data-split>Let's Connect!</h2>
+            <a class="mail-link" id="mailLink" href="#" data-reveal aria-label="Kirim email">Email saya</a>
+            <div class="socials-icons" data-reveal style="--d:.15s">
+                <a href="https://www.instagram.com/zidanalkaff_/" aria-label="Instagram"><i class="ph-bold ph-instagram-logo"></i></a>
+                <a href="https://www.linkedin.com/in/ahmad-zaidan-55a4b9353/" aria-label="LinkedIn"><i class="ph-bold ph-linkedin-logo"></i></a>
+                <a href="https://github.com/sunnydarthh" aria-label="GitHub"><i class="ph-bold ph-github-logo"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span id="footerText"></span>
+        <a href="#home">Kembali ke atas <i class="ph-bold ph-arrow-up"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
