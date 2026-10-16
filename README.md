@@ -1,4 +1,4 @@
-# Portofolio Ahmad Zaidan
+# Portofolio Ahmad Zaidan (Just Friend)
 
 Situs portofolio pribadi satu halaman dengan tema hitam putih, animasi scroll, dan efek bayangan kursor. Dibuat dengan HTML, CSS, dan JavaScript murni tanpa framework.
 
