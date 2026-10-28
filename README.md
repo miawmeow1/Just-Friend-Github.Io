@@ -69,4 +69,4 @@ Untuk mengganti foto, simpan fotomu dengan nama `portofolio.jpeg` di folder yang
 
 ## Lisensi
 
-Dibuat untuk keperluan portofolio pribadi. Silakan jadikan inspirasi, dan mohon tidak menyalin isi atau data pribadi tanpa izin.
+Dibuat untuk keperluan portofolio pribadi dan sebagai referensi pengembangan profil profesional. Seluruh penggunaan, publikasi, atau pemanfaatan data pribadi dan materi yang berkaitan dengan pihak lain harus memperoleh izin dari pihak yang bersangkutan.
