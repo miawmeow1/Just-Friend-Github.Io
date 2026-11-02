@@ -8,7 +8,7 @@ const profile = {
     name: "Ahmad Zaidan",
     shortName: "Zaidan",
     gender: "Laki-laki",
-    umur: "19 tahun",
+    umur: "21 tahun",
     campus: "Politeknik Elektronika Negeri Surabaya (PENS), Surabaya",
     major: "D3-PJJ Teknik Informatika",
     year: "2024 (semester 5)",
